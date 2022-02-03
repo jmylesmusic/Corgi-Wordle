@@ -1,0 +1,234 @@
+:root{
+    --green:rgba(158, 223, 62, 0.733);
+    --grey: rgb(80, 80, 80);
+    --yellow:rgba(255, 255, 0, 0.678);
+    --black:#222222;
+}
+
+body{
+    background-color:var(--black);
+}
+.table {
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    width:40vw;
+    padding: 1.25vw;
+    font-size:4vw;
+    text-transform: capitalize;
+    font-family:sans-serif;
+    text-align: center;
+    font-weight:700;
+    margin-left:25vw;
+    margin-right:25vw;
+}
+
+li{
+    list-style: none;
+    width: 5vw;
+    height:5vw;    
+    padding:1.25vw;
+    border:solid lightgrey 1px;
+}
+
+.guess-one{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    width:100%;
+    padding: 1.25vw;
+    color:var(--black);
+}
+
+
+.guess-one > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:1s;
+}
+
+.guess-one > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 1.6s;
+}
+.guess-one > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 2.1s;
+}
+
+.guess-one > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 2.7s;
+}
+
+.guess-one > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes typing {
+    0% {
+        color: var(--black);
+    }
+    100%{
+        color:white;
+    }
+}
+
+
+.guess-two{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:var(--black);
+    width:100%;
+    padding: 1.25vw;
+}
+
+.guess-two > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:6s;
+}
+
+.guess-two > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 6.6s;
+}
+.guess-two > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 7.1s;
+}
+
+.guess-two > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 7.4s;
+}
+
+.guess-two > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 8s;
+}
+
+.guess-three{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:var(--black);
+    width:100%;
+    padding: 1.25vw;
+}
+
+.guess-three > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:10.2s;
+}
+
+.guess-three > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 10.6s;
+}
+.guess-three > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 11.3s;
+}
+
+.guess-three > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 11.9s;
+}
+
+.guess-three > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 12.2s;
+}
+
+.guess-four{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:var(--black);
+    width:100%;
+    padding: 1.25vw
+}
+
+.guess-four > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:14.5s;
+}
+
+.guess-four > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 15.1s;
+}
+.guess-four > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 15.5s;
+}
+
+.guess-four > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 15.9s;
+}
+
+.guess-four > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 16.5s;
+}
+
+.guess-five{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:var(--black);
+    width:100%;
+    padding: 1.25vw
+}
+
+.guess-five > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:19s;
+}
+
+.guess-five > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 19.4s;
+}
+.guess-five > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 19.8s;
+}
+
+.guess-five > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 20.5s;
+}
+
+.guess-five > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 21s;
+}
+
+.final-guess{    
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    color:var(--black);
+    width:100%;
+    padding: 1.25vw
+}
+
+.final-guess > li:nth-child(1) {
+    animation:typing 0.01s forwards;
+    animation-delay:24s;
+}
+
+.final-guess > li:nth-child(2) {
+    animation:typing 0.01s forwards;
+    animation-delay: 24.7s;
+}
+.final-guess > li:nth-child(3) {
+    animation:typing 0.01s forwards;
+    animation-delay: 25.4s;
+}
+
+.final-guess > li:nth-child(4) {
+    animation:typing 0.01s forwards;
+    animation-delay: 26.1s;
+}
+
+.final-guess > li:nth-child(5) {
+    animation:typing 0.01s forwards;
+    animation-delay: 26.8s;
+}
