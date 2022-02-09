@@ -71,3 +71,10 @@ function lastGuess() {
 };
 
 setTimeout(lastGuess, 27600);
+
+function bouncingText() {
+    document.getElementById(".final-guess li.yes:nth-child(1)").animate([
+        {transform: }
+    ]);
+
+}

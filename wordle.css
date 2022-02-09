@@ -232,3 +232,12 @@ li{
     animation:typing 0.01s forwards;
     animation-delay: 26.8s;
 }
+
+@keyframes jump {
+    0% {
+        transform:translateY(-10px);
+    }
+    100% {
+        transform:translateY(10px);
+    }
+}
